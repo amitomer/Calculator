@@ -8,12 +8,17 @@ import {observer, inject} from 'mobx-react';
 class Calculator extends Component {
   render() {
     return (
-        <div className="App">
+        <body>
+        
+        
+            <div className='box'>
             <div className="calc-border">
                 <Screen />
                 <Buttons />
             </div>
-        </div>
+            </div>
+        
+        </body>
     );
   }
 }

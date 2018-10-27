@@ -36,7 +36,7 @@ class CalculatorStore {
         else { 
             this.value = parseInt(this.currentOperand);
         }
-        this.currentOperand = '0';
+        this.currentOperand = '';
     }
     @action clear=()=> {
         this.currentOperand = '0';
