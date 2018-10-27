@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Number from './Number'
 import Operator from './Operator'
-import Clear from './Clear'
 import '../App.css';
 
 class Buttons extends Component {
@@ -11,7 +10,7 @@ class Buttons extends Component {
             <span>
                 <Number/>
                 <Operator/>
-                <Clear/>
+                
             </span>
         </span>
           );

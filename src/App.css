@@ -47,8 +47,8 @@ h1{
   width:130px;
   border-radius:5%;
   position: absolute;
-  left:200%;
-  top:40%;
+  font-family: 'Dosis', sans-serif;
+  left:60%;
   border: white solid 1px;
   color: rgba(30, 22, 54, 0.7);
   box-shadow: #bfd8d2 0 0px 0px 40px inset;
